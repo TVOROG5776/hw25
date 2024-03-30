@@ -1,0 +1,30 @@
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+#coral {
+    background-color: red;
+    height: 230px;
+    width: 250px;
+    position: absolute;
+    left: 30%;
+}
+
+#blue {
+    background-color: blue;
+    height: 230px;
+    width: 250px;
+    position: relative;
+    z-index: 1;
+    top: 100px;
+}
+
+#green {
+    background-color: green;
+    height: 230px;
+    width: 250px;
+    position: absolute;
+    top: 300px;
+    right: 33%;
+}
